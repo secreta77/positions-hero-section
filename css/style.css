@@ -215,7 +215,7 @@ main .search-widget .widget-form {
   flex-wrap: wrap;
   background: linear-gradient(90deg, orange, #7b2ff7);
   padding: 4rem 3rem;
-  min-height: 12rem;
+  min-height: 17rem;
 }
 main .search-widget .widget-form .field {
   display: flex;
