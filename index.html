@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -65,6 +65,45 @@
           <h2>The world</h2>
         </div>
         <button>explore now </button>
+      </div>
+
+      <div class="search-widget">
+        <ul class="widget-tabs">
+          <li class="active"><i class="fa-solid fa-bed"></i> Hotels</li>
+          <li><i class="fa-solid fa-car"></i> Car Rentals</li>
+          <li><i class="fa-solid fa-plane"></i> Flights</li>
+          <li><i class="fa-solid fa-map-location-dot"></i> Trips</li>
+          <li><i class="fa-solid fa-ship"></i> Cruises</li>
+          <li><i class="fa-solid fa-person-swimming"></i> Activities</li>
+        </ul>
+
+        <span class="slide-count">01. 02. 03.</span>
+
+        <form class="widget-form">
+          <div class="field field-wide">
+            <label for="destination">Destination</label>
+            <input type="text" id="destination" />
+          </div>
+          <div class="field">
+            <label for="checkin">Check In</label>
+            <input type="text" id="checkin" placeholder="YYYY-MM-DD" />
+          </div>
+          <div class="field">
+            <label for="checkout">Check Out</label>
+            <input type="text" id="checkout" placeholder="YYYY-MM-DD" />
+          </div>
+          <div class="field field--select">
+            <label for="adults">Adults</label>
+            <select id="adults"><option>01</option></select>
+          </div>
+          <div class="field field--select">
+            <label for="children">Children</label>
+            <select id="children"><option>0</option></select>
+          </div>
+          <button type="submit" class="widget-search">
+            Search <span>&bull;&bull;&bull;</span>
+          </button>
+        </form>
       </div>
     </main>
   </body>
