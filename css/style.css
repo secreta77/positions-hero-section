@@ -260,4 +260,5 @@ main .search-widget .widget-form .widget-search {
   font-size: clamp(1.1rem, 1.4vw, 1.3rem);
   font-weight: 700;
   cursor: pointer;
+  margin-top: 2rem;
 }/*# sourceMappingURL=style.css.map */
